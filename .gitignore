@@ -1,0 +1,34 @@
+# ---
+# Git ignore config 
+# ---
+# Created:    2014-05-23T02:55Z
+# Modified:   2014-05-23T03:10Z
+# ---
+
+
+# Standard unneeded stuff
+# ---
+*.tmp
+*.log
+*.log
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Project specific junk
+# ---
+
+*.bsp
+*.vpk
+
+
+*.sav
+*.ttf
+*.inf
+*.dem
+*.dt
+*.bsp0000
+*.bz20000
+*.db

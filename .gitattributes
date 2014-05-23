@@ -1,0 +1,31 @@
+# ---
+# Git standardizing config 
+# ---
+# Created:    2014-05-23T02:55Z
+# Modified:   2014-05-23T03:04Z
+# ---
+
+
+# ---
+# Auto detect text files and perform CRLF normalization
+# Despite line feed being the standard for most OS'
+# Windows will auto change this to a combined carriage
+# Return and line feed, so we may as well do this
+# by default to prevent ghost commits.
+# ---
+
+* text=crlf
+
+# ---
+# Binaries
+#
+# We don't want git to change these in any way, so listed formats
+# will be overlooked, when committing.
+# ---
+
+*.vtf binary
+*.vtx binary
+*.vvd binary
+*.mdl binary
+*.dem binary
+*.smd binary
